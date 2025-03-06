@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Test</title>
+    <meta name="description" content="This is our Shoes Store" />
+</head>
+
+<body>
+    <form>
+        <label>Username</label>
+        <input type="text" placeholder="Enter your username" required autofocus><br>
+        <hr>
+        <br>
+        <label>Password</label>
+        <input type="password" required placeholder="Enter your password"><br>
+        <hr>
+        <br>
+        <!--
+        i learn how to use Select And Textarea 
+        optgroup to make many option under one group
+        -->
+        <label for="book">Choose a book:</label>
+        <select name="book" id="book">
+            <optgroup label="romantic books">
+                <option value="1">Book 1</option>
+                <option value="2">Book 2</option>
+                <option value="3">Book 3</option>
+            </optgroup>
+            <optgroup label="drama books">
+                <option value="4">Book 4</option>
+                <option value="5">Book 5</option>
+                <option value="6">Book 6</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <textarea name="Subject" placeholder="let me tell you something..." cols="15" rows="7"></textarea>
+        <br>
+        <input type="range" min="100" max="400" value="400" step="50"><br>
+        <hr>
+        <br>
+        <input type="reset" value="Empty Form">
+        <input type="submit" value="Send Data">
+    </form>
+</body>
+
+</html>
