@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Test</title>
+        <meta name="description" content="This is our Shoes Store" />
+    </head>
+    <body>
+        <form>
+            <label>Username</label>
+            <!--
+            we learn today about this form attributes :
+            => autofocus : to make user focus on something in screen
+            => minlenght : minimum lenght that user can enter
+            => maxlenght : maximum lenght that user can enter
+            =>readonly : to make something raedonly, user can't change it and it send with data
+            =>disabled : to disable something make his color light and the user can't change it 
+                and it is not send with data !
+            -->
+            <input type="text" placeholder="Enter your username" required autofocus><br>
+            <hr>
+            <br>
+            <label>Password</label>
+            <input type="password" required placeholder="Enter your password" minlength="11"><br>
+            <hr>
+            <br>
+            <label>Mobile</label>
+            <input type="number" placeholder="+212612131415"><br>
+            <hr>
+            <br>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required><br>
+            <hr>
+            <br>
+            <label>Subject</label>
+            <input type="text" placeholder="Subject" value="ilias" readonly disabled><br>
+            <hr>
+            <br>
+            <input type="range" min="100" max="400" value="400" step="50"><br>
+            <hr>
+            <br>
+            <input type="reset" value="Empty Form">
+            <input type="submit" value="Send Data">
+        </form>
+    </body>
+</html>
