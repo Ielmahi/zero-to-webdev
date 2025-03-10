@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: "press start 2p";
+}
+
+
+
+#p1 {
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#p2 {
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+}
