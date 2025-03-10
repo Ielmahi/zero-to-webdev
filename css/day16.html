@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+There are three ways in which we can apply css properties to html elements:
+=> 1. Inline -> <body style="background-color: aliceblue;">
+=> 2. Internal -> all the things in head
+=> 3. External (works the best especially if you have a large websites)
+      put it in another .css file and then link to it in ur html file with :
+                 =>   <link rel="stylesheet" href="./style.css">
+
+if you want to target a specific element by the id of it
+ and # after it's name in css
+#p1 {
+    color: tomato;
+}
+
+#p2 {
+    color: blueviolet;
+}
+
+
+||
+you can do that also using class to specific each element:
+and in ur css type .name of the element:
+.odd {
+    color: black;
+}
+
+.even {
+    color: blue;
+}
+-->
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Shoes Store</title>
+    <meta name="description" content="This is our Shoes Store" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Sneakers Store</h1>
+    <p id="p1" class="odd">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Provident
+        pariatur voluptates cumque inventore, est ab
+        consequuntur vel corporis nihil eveniet dicta nemo neque iusto non quos ratione sapiente dignissimos? Iure.</p>
+    <p id="p2" class="even">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere nihil consequatur eos
+        quibusdam
+        explicabo at
+        voluptas similique hic vitae quos, consectetur vero! In officia quos id minima quo soluta explicabo.</p>
+</body>
+
+</html>
